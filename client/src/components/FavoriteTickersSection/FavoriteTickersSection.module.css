@@ -1,0 +1,15 @@
+.section {
+  width: 400px;
+  height: 600px;
+  background: #f6f7fb;
+  box-shadow: 5px 10px 20px rgba(170, 178, 197, 0.4);
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.text {
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.04em;
+  color: #000000;
+}
