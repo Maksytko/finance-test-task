@@ -7,7 +7,7 @@ function PauseAllButton({ handleButtonClick }) {
       data-status="On"
       className={style.button}
     >
-      Остановить
+      Остановить обновления
     </button>
   );
 }

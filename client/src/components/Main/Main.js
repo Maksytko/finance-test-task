@@ -21,14 +21,14 @@ function Main({ setActualTickers }) {
   function tickerSwitcher(event) {
     const target = event.currentTarget;
     if (target.getAttribute("data-status") === "On") {
-      target.innerText = "Запустить";
+      target.innerText = "Запустить обновления";
       target.setAttribute("data-status", "Off");
       socket.emit("stop");
       return;
     }
 
     if (target.getAttribute("data-status") === "Off") {
-      target.innerText = "Остановить";
+      target.innerText = "Остановить обновления";
       target.setAttribute("data-status", "On");
       socket.emit("start");
       return;
