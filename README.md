@@ -1,6 +1,6 @@
 # React Test Task
 
-#implemented bonus functionality:
+Implemented bonus functionality:
 - visual effects to highlight positive or negative changes in the prices
 Based on previous and current ticker price, calculated a changes visualized like + or - price changes
 - the possibility to switch on/off tickers by user
