@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { connect } from "react-redux";
-import { changeFilter } from "../../redux/tickers-actions";
+import { changeFilter } from "../../redux/filter-actions";
 import style from "./SearchForm.module.css";
 
 function SearchForm({ changeFilter }) {

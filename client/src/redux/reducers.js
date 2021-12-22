@@ -3,8 +3,9 @@ import {
   setActualTickers,
   addToFavoriteTickers,
   deleteFromFavoriteTickers,
-  changeFilter,
 } from "./tickers-actions";
+
+import { changeFilter } from "./filter-actions";
 
 const initialState = {
   tickers: {
