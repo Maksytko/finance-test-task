@@ -6,16 +6,18 @@ import TickersListItem from "../TickersListItem";
 function TickersList({ tickers, handleButtonClick, textForButton }) {
   const [pausedTickersData, setPausedTickersData] = useState([]);
 
-  function handlePauseButtonClick(ticker) {
+  function handlePauseButtonClick(event, ticker) {
     const tickerIndex = pausedTickersData.findIndex(
       (obj) => obj.ticker === ticker.ticker
     );
 
     if (tickerIndex !== -1) {
       pausedTickersData.splice(tickerIndex, 1);
+      event.currentTarget.innerText = "Остановить";
       return;
     }
     setPausedTickersData([...pausedTickersData, ticker]);
+    event.currentTarget.innerText = "Запустить";
   }
 
   function tinkerRender(ticker) {

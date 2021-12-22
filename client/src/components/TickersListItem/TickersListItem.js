@@ -20,7 +20,7 @@ function TickersListItem({
       </button>
       <button
         className={style.button}
-        onClick={() => handlePauseButtonClick(ticker)}
+        onClick={(event) => handlePauseButtonClick(event, ticker)}
       >
         Остановить
       </button>
