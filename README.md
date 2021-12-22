@@ -1,16 +1,16 @@
 # React Test Task
 
 Implemented bonus functionality:
-- visual effects to highlight positive or negative changes in the prices
-Based on previous and current ticker price, calculated a changes visualized like + or - price changes
-- the possibility to switch on/off tickers by user
-When you click on pause button, data of ticker saved in state of paused tickers data. In render time verified, if in state saved some ticker data, if yes, render saved tickers and tickers from backend , if no, render data only from backend
-- the possibility to switch on/off receive ticker from backend by user
-When you click on switcher button with data status "on", you call event "stop", if with "off", event "start" for backend
-- the possibility to add/remove ticker from watching group
-When you click on add to favorite button, ticker name save in redux state in massive of favorites. In render time in all tickers list, in function getAllTickersWithoutFavorite verified if massive of favorites includes a ticker name if yes, render without favorite. Function getFavoriteTickers verified if massive includes ticker name, if yes render ticker in favorite list
-- search a ticker by name
-When you change input value, you call function which change component state of filter, and after submit, value of this state save in redux state, and function which send a tickers fron all tickers list, verifie if tickers name includes a filter value.
+- visual effects to highlight positive or negative changes in the prices 
+(Based on previous and current ticker price, calculated a changes visualized like + or - price changes)
+- the possibility to switch on/off tickers by user 
+(When you click on pause button, data of ticker saved in state of paused tickers data. In render time verified, if in state saved some ticker data, if yes, render saved tickers and tickers from backend , if no, render data only from backend)
+- the possibility to switch on/off receive ticker from backend by user 
+(When you click on switcher button with data status "on", you call event "stop", if with "off", event "start" for backend)
+- the possibility to add/remove ticker from watching group 
+(When you click on add to favorite button, ticker name save in redux state in massive of favorites. In render time in all tickers list, in function getAllTickersWithoutFavorite verified if massive of favorites includes a ticker name if yes, render without favorite. Function getFavoriteTickers verified if massive includes ticker name, if yes render ticker in favorite list)
+- search a ticker by name 
+(When you change input value, you call function which change component state of filter, and after submit, value of this state save in redux state, and function which send a tickers fron all tickers list, verifie if tickers name includes a filter value)
 
 
 ## Requirements
